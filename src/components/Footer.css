@@ -1,0 +1,36 @@
+.footer {
+    background: linear-gradient(#dbdbd9, #f0fcff);
+
+}
+
+.email {
+    margin: 0;
+    font-weight: bold;
+}
+
+.cv {
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 0.2em;
+}
+
+.num {
+    margin: 0;
+    color: #05b9f0;
+    margin-top: 0.2em;
+    font-weight: bold;
+
+}
+
+@media (min-width: 768px) {
+
+    .footer {
+        background: linear-gradient(#dbdbd9, #f0fcff);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 8em;
+    }
+
+}

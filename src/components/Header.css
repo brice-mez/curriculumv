@@ -1,0 +1,48 @@
+
+body {
+    background-color: #dbdbd9;
+    font-family: 'Nunitos Sans', sans-serif;
+}
+
+.title {
+    margin: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.photo-avatar {
+    filter: grayscale(45%);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #72b5f7;
+}
+
+
+.reseaux {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px
+}
+
+.github {
+    height: 50px;
+    width: 50px;
+    margin-right: 0.3em
+}
+
+.linkedin {
+    height: 50px;
+    width: 50px;
+    margin-left: 0.3em
+}

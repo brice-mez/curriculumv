@@ -1,0 +1,53 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-carte {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #f0fcff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 4em;
+}
+
+.label {
+    margin: 0px;
+}
+
+.entreprise {
+    margin: 0px
+}
+
+@media (min-width: 768px) {
+
+    .experience {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .experience-carte {
+        width: 30%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: #f0fcff;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        margin-bottom: 4em;
+    }
+
+    .experience-carte:hover {
+        transform: scale(1.1);
+        transition: 0.5s ease-in-out;
+    }
+}
